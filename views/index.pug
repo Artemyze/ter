@@ -1,0 +1,14 @@
+extends layout/main
+
+block content
+    h1 Pug - лучшее
+    #container.col
+        if youAreUsingPug
+            p You are amazing
+        else
+            p Get on it
+        p.
+            Pug
+            s;ds;dsdsd
+            #{services[0].id}
+            #{services[0].name}
